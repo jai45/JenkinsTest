@@ -7,12 +7,12 @@ pipeline {
                 echo 'Building the Application'
             }
         }
-        state('Test'){
+        stage('Test'){
             steps{
                 echo 'Testing the Application'
             }
         }
-        state('Deploy'){
+        stage('Deploy'){
             steps{
                 echo 'Deploying the Application'
             }
